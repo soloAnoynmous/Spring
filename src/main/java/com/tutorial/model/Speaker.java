@@ -1,5 +1,8 @@
 package com.tutorial.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Speaker {
     private String firstName;
     private String lastName;
